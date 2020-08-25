@@ -10,9 +10,11 @@ Module Module1
         Dim mysecondNumber As Integer
         Dim aLittleString As String
         Dim someSortOFTest As Boolean
+        Dim result As Integer
 
 
         myFirstNumber = 42
+        mysecondNumber = 8
 
         Console.WriteLine(myFirstNumber)
 
@@ -37,6 +39,22 @@ Module Module1
         'x = 7
         'Console.WriteLine(x)
         'Console.ReadLine()
+
+
+        'do math
+
+
+        Console.WriteLine(myFirstNumber + mysecondNumber
+                          )
+        Console.ReadLine()
+
+        result = myFirstNumber + mysecondNumber
+        Console.WriteLine(result)
+        Console.ReadLine()
+        'red highlight stops ccode when play button is pressed
+        'this will payuse program at this line when running code
+        'hitting f11 will allow program to run for a single step
+
 
 
 
